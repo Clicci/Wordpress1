@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'WordPress' );
+define( 'DB_NAME', 'WordPress1' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
@@ -78,6 +78,7 @@ $table_prefix = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define( 'WP_DEBUG', false );
+/*define('WP_ALLOW_MULTISITE', true);*/
 
 /* That's all, stop editing! Happy publishing. */
 
